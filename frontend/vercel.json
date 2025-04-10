@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://web-analyser-backend.vercel.app/:path*"
+    }
+  ],
+  "env": {
+    "VITE_API_BASE_URL": "https://web-analyser-backend.vercel.app"
+  }
+}
