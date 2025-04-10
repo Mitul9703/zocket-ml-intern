@@ -1,4 +1,6 @@
-# Web Content Analyzer Agent
+# Try it out here: https://zocket-assignment-frontend.vercel.app/
+
+# Zocket Assignment
 
 This project implements an AI agent that can:
 - Accept a URL as input
@@ -9,9 +11,8 @@ This project implements an AI agent that can:
 ## Features
 
 - Built using LangGraph for agent orchestration
-- Uses FireCrawl for efficient web scraping
-- Powered by Google's Gemini 2.0 Flash Lite model
-- Simple agent architecture with a dedicated web scraping tool
+- Uses FireCrawl for web scraping
+- Powered by Google's Gemini 2.0 Flash Lite model (Free of cost)
 
 ## Setup
 
@@ -28,24 +29,23 @@ This project implements an AI agent that can:
 
 3. Run the agent:
    ```
-   python web_analyzer_agent.py
+   python Agent.py
    ```
 
 ## Usage
 
 ```python
-from web_analyzer_agent import WebAnalyzerAgent
+from Agent import WebAnalysisAgent
 
 # Initialize the agent
-agent = WebAnalyzerAgent()
+agent = WebAnalysisAgent()
 
 # Analyze a URL
-result = agent.analyze_url("https://example.com")
+result = agent.analyze_url("<URL>")
 print(result)
 ```
 
 ## Project Structure
 
-- `web_analyzer_agent.py`: Main agent implementation
-- `tools.py`: Contains the web scraping tool implementation
-- `requirements.txt`: Project dependencies
+- `Agent.py`: Main agent implementation
+- `tools.py`: Contains the web scraping tool implementation using FireCrawl
