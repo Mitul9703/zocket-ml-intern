@@ -1,4 +1,4 @@
-# Try it out here: https://zocket-assignment-frontend.vercel.app/
+# Try it out here: [https://zocket-assignment-frontend.vercel.app/](https://zockent-assignment-frontend.vercel.app/)
 
 # Zocket Assignment
 
