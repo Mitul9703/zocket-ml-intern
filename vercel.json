@@ -13,6 +13,6 @@
     }
   ],
   "env": {
-    "ALLOWED_ORIGINS": "https://web-analyser-frontend.vercel.app"
+    "ALLOWED_ORIGINS": "https://zocket-assignment-frontend.vercel.app"
   }
 }

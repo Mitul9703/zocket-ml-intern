@@ -4,3 +4,6 @@ langchain-google-genai
 langchain-community
 firecrawl-py
 python-dotenv
+fastapi
+uvicorn
+

@@ -17,12 +17,12 @@ app = FastAPI(
     version="1.0.0"
 )
 
-allowed_origins = os.getenv("ALLOWED_ORIGINS", "*")
-origins = [allowed_origins] if allowed_origins == "*" else allowed_origins.split(",")
+# allowed_origins = os.getenv("ALLOWED_ORIGINS", "*")
+# origins = [allowed_origins] if allowed_origins == "*" else allowed_origins.split(",")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -80,6 +80,3 @@ async def analyze_url(request: Analyserequest):
             error=str(e)
         )
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)
