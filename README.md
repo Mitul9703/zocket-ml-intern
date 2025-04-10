@@ -46,6 +46,7 @@ print(result)
 ```
 
 ## Project Structure
+![image](https://github.com/user-attachments/assets/acdd4444-4ca4-4d4a-beae-edef382e29c7)
 
 - `Agent.py`: Main agent implementation
 - `tools.py`: Contains the web scraping tool implementation using FireCrawl
