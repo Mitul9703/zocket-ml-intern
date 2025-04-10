@@ -1,6 +1,6 @@
 # Web Content Analyzer Agent
 
-This project implements an AI agent that can:
+This repo implements an AI agent that can:
 - Accept a URL as input
 - Retrieve and analyze the content of the provided web link
 - Extract key information from the web page
