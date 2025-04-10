@@ -1,6 +1,8 @@
-# Web Content Analyzer Agent
+# Try it out here: https://zocket-assignment-frontend.vercel.app/
 
-This repo implements an AI agent that can:
+# Zocket Assignment
+
+This project implements an AI agent that can:
 - Accept a URL as input
 - Retrieve and analyze the content of the provided web link
 - Extract key information from the web page
