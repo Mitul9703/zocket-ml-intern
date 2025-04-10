@@ -14,6 +14,12 @@ This project implements an AI agent that can:
 - Uses FireCrawl for web scraping
 - Powered by Google's Gemini 2.0 Flash Lite model (Free of cost)
 
+## Project Screenshots
+![image](https://github.com/user-attachments/assets/79ba8864-05e0-464c-9bed-37365394e0b0)
+![image](https://github.com/user-attachments/assets/09bec0cd-476b-4332-bb0f-04d7d26c3c41)
+![image](https://github.com/user-attachments/assets/1e5f69f6-6463-4686-8d8c-889bdac0cb30)
+![image](https://github.com/user-attachments/assets/a7cfbdac-d39a-4490-9dc5-555c0b695c2f)
+
 ## Setup
 
 1. Install the required dependencies:
